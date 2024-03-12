@@ -1,11 +1,17 @@
-import './assets/main.css'
+import { createApp } from 'vue';
 
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap";
 
-const app = createApp(App)
 
-app.use(router)
+import App from './App.vue';
+import router from './router';
+import './assets/main.css';
+import { faPlugin } from './plugins/fontAwesomeLibraryPlugin';
 
-app.mount('#app')
+const app = createApp(App);
+
+app.use(router);
+app.use(faPlugin);
+
+app.mount('#app');
