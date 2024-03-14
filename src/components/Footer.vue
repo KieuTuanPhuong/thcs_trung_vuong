@@ -101,4 +101,18 @@ h4 {
 .school-info {
     margin-left: 5rem;
 }
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        padding: 6.25rem 2rem;
+    }
+
+    .school-info {
+        margin-left: 0;
+    }
+
+    h4 {
+        margin-top: 2rem;
+    }
+}
 </style>

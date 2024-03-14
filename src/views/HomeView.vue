@@ -1,7 +1,9 @@
 <script setup>
-import Navigation from '../components/Navigation.vue';
+import Summarize from "@/components/Summarize.vue";
 </script>
 
 <template>
-  <div class=""></div>
+  <div class="main">
+    <Summarize />
+  </div>
 </template>
