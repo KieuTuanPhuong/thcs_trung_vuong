@@ -112,7 +112,7 @@ const headers = ref([
 </script>
 
 <template>
-<nav class="navbar navbar-expand-lg p-0">
+<nav class="navbar navbar-expand-lg p-0 shadow">
     <div class="container navigation-container">
         <img class="brand-img" src="../assets/images/logo_school.png" alt="trung_vuong_logo">
 

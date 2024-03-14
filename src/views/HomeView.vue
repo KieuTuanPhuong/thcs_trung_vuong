@@ -3,5 +3,5 @@ import Navigation from '../components/Navigation.vue';
 </script>
 
 <template>
-  <Navigation />
+  <div class=""></div>
 </template>
