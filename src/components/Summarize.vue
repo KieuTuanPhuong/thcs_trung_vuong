@@ -53,6 +53,7 @@ span {
 }
 
 .summarize-gallery {
+    position: relative;
     padding: 5.6rem 0 3.75rem;
 }
 
@@ -66,26 +67,26 @@ span {
     height: 215px;
     border-radius: 50%;
     background: var(--text-light);
-    top: 68.5%;
     left: 31.5%;
+    top: inherit;
+    bottom: 0;
 }
 
 .summarize-video > img {
     position: absolute;
     border-radius: 50%;
-    top: 70%;
+    top: inherit;
     left: 32%;
+    bottom: -20px;
 }
 
 @media only screen and (max-width: 1440px) {
     .summarize-cirle {
-        top: 95%;
-        left: 21.5%;
+        left: 31.5%;
     }
 
     .summarize-video > img {
-        top: 97%;
-        left: 22%;
+        left: 32%;
     }
 }
 
@@ -96,12 +97,10 @@ span {
     }
 
     .summarize-cirle {
-        top: 99%;
         left: 51.5%;
     }
 
     .summarize-video > img {
-        top: 101%;
         left: 52%;
     }
 }
@@ -114,15 +113,13 @@ span {
     .summarize-cirle {
         width: 180px;
         height: 180px;
-        top: 90%;
-        left: 37.5%;
+        left: 47.5%;
     }
 
     .summarize-video > img {
         width: 180px;
         height: 180px;
-        top: 91.5%;
-        left: 38%;
+        left: 48%;
     }
 
     .summarize-content {
@@ -138,14 +135,14 @@ span {
     .summarize-cirle {
         width: 150px;
         height: 150px;
-        top: 80%;
+        top: 50%;
         left: 40.5%;
     }
 
     .summarize-video > img {
         width: 150px;
         height: 150px;
-        top: 81.5%;
+        top: 51.5%;  
         left: 41%;
     }
 }
