@@ -1,9 +1,7 @@
 :root {
     --main-bg-blue: #202744;
-    --secondary-blue: #3856a7;
-    --discord-blue: #7289ba;
     --text-light: aliceblue;
+    --text-hover-color: #3856a7;
     --text-dark: #212529;
     --text-grey: #bababa;
-    --info-background: #ba9862;
 }
