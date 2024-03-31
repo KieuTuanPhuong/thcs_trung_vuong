@@ -2,6 +2,7 @@
 import MainInfomation from "@/components/MainInfomation.vue";
 import IntroVideo from "@/components/IntroVideo.vue";
 import Events from "@/components/Event/Events.vue";
+import ScheduleMenu from "@/components/ScheduleMenu.vue";
 import Summarize from "@/components/Summarize.vue";
 </script>
 
@@ -10,6 +11,7 @@ import Summarize from "@/components/Summarize.vue";
     <MainInfomation />
     <IntroVideo />
     <Events />
+    <ScheduleMenu />
     <Summarize />
   </div>
 </template>
