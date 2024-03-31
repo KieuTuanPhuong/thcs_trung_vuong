@@ -1,17 +1,13 @@
 <script setup>
+import WelcomeParallax from "@/components/WelcomeParallax.vue";
 import MainInfomation from "@/components/MainInfomation.vue";
-import IntroVideo from "@/components/IntroVideo.vue";
-import Events from "@/components/Event/Events.vue";
-import ScheduleMenu from "@/components/ScheduleMenu.vue";
 import Summarize from "@/components/Summarize.vue";
 </script>
 
 <template>
   <div class="main">
+    <WelcomeParallax />
     <MainInfomation />
-    <IntroVideo />
-    <Events />
-    <ScheduleMenu />
     <Summarize />
   </div>
 </template>
