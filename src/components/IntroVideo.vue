@@ -6,7 +6,7 @@
 <div class="video-section">
     <div class="video-container">
         <video id="autoplayVideo" controls autoplay muted>
-            <source src="../assets/videos/video3.mp4" type="video/mp4">
+            <source src="" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
