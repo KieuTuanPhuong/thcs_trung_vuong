@@ -165,7 +165,7 @@ const headers = ref([
 }
 
 .external-link a:hover {
-    color: var(--text-hover-color);
+    color: var(--secondary-blue);
 }
 
 </style>

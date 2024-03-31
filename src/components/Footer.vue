@@ -90,7 +90,7 @@ a {
 }
 
 a:hover {
-    color: var(--text-hover-color);
+    color: var(--secondary-blue);
 }
 
 h4 {

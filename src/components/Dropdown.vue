@@ -38,7 +38,7 @@ const props = defineProps(['title', 'items']);
 }
 
 .dropdown-button:hover {
-    color: var(--text-hover-color);
+    color: var(--secondary-blue);
 }
 
 .dropdown-content {
@@ -68,7 +68,7 @@ const props = defineProps(['title', 'items']);
 }
 
 .dropdown-list a:hover {
-    color: var(--text-hover-color);
+    color: var(--secondary-blue);
 }
 
 </style>
